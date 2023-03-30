@@ -27,8 +27,8 @@
 
 .form button {
   font: inherit;
-  background-color: #ebb002;
-  border: 1px solid #ebb002;
+  background-color: #8aedff;
+  border: 1px solid #8aedff;
   color: #201d0f;
   padding: 0.5rem 1.5rem;
   border-radius: 4px;
@@ -37,6 +37,6 @@
 
 .form button:hover,
 .form button:active {
-  background-color: #ebc002;
-  border-color: #ebc002;
+  background-color: #05daff;
+  border-color: #05daff;
 }
