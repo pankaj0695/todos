@@ -14,8 +14,14 @@ export const TodosContext = React.createContext<TodosContextObj>({
   deleteTodo: (todoId: string) => {},
 });
 
+const DUMMY_TODOS = [
+  'Complete the course',
+  'Workout',
+  'Go to college',
+  'Complete the assignment',
+].map(todoText => new Todo(todoText));
 const TodosContextProvider: React.FC<PropsWithChildren<{}>> = props => {
-  const [todos, setTodos] = useState<Todo[]>([]);
+  const [todos, setTodos] = useState<Todo[]>(DUMMY_TODOS);
   const AddTodoHandler = (todoText: string) => {
     setTodos(prevTodos => prevTodos.concat(new Todo(todoText)));
   };
