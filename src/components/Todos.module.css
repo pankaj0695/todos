@@ -4,3 +4,9 @@
   padding: 0;
   width: 40rem;
 }
+
+@media (max-width: 480px) {
+  .todos {
+    width: 17rem;
+  }
+}

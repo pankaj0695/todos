@@ -40,3 +40,12 @@
   background-color: #05daff;
   border-color: #05daff;
 }
+
+@media (max-width: 480px) {
+  .form {
+    width: 17rem;
+  }
+  .form input {
+    width: 17rem;
+  }
+}
